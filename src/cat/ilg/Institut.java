@@ -4,11 +4,13 @@ public class Institut {
     //Atributos
     private String nom;
     //Metodos
-    public void afegirProfe (String profe){
-        this.profe = profe;
+    public void afegirProfe (Professor profe){
+
+        this.professor = profe;
     }
 
-    public void afegirEstudiant (String estudiant){
+    public void afegirEstudiant (Estudiant estudiant){
+
         this.estudiant = estudiant;
     }
     public void imprimirInformacio () {

@@ -1,15 +1,17 @@
 package cat.ilg;
 
-public class ProfessorSubstitut {
+public class ProfessorSubstitut extends Professor {
     //Atributos
     private String dni;
     private String nom;
-    private float sou;
+    private Date dataInici;
+    private Date dataFi;
     //Metodos
-    public void canviarSou (float nouSou){
-        this.nouSou = nouSou;
+    public void assignarSubstitucio(dataInici, dataFi){
+
     }
 
     public void obtenirDades () {
+        System.out.println("Nombre:"+nom+"-DNI:"+dni+"-Sou:"+sou+"-DataInici"+DataInici+"-DataFi"+DataFi);
     }
 }

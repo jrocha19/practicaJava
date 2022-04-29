@@ -1,16 +1,17 @@
 package cat.ilg;
 
-public class Estudiant {
+public class Estudiant extends Persona {
     //Atributos
     private String dni;
     private String nom;
-    private float nota;
+    private double nota;
     //Metodos
-    public void posarNota (float nota){
+    public void posarNota (double nota){
 
         this.nota = nota;
     }
 
     public void obtenirDades () {
+        System.out.println("Nombre:"+nom+"-DNI:"+dni+"-Nota:"+nota);
     }
 }
